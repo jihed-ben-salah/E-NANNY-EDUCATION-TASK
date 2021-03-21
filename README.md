@@ -6,10 +6,10 @@ I'm Jihed Ben Salah from Tunisia and I'm an IT engineering Student.I really enjo
 
 Skills: HTML / CSS/ JS / C/ C++/QT/PHP
 
-- 🔭 I’m currently working on this page. 
+- 🔭 I’m currently working on Esprit 
 
 
-
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/Jihed ben salah/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/jihas ben salah)  
 
 
 
