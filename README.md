@@ -4,10 +4,7 @@
 
 I'm Jihed Ben Salah from Tunisia and I'm an IT engineering Student.I really enjoy learning new programming languages and frameworks like php,javascript,nodejs,C++,QT ...
 
-###Skils And Experience
-* 🐘 : PHP
-* ☘ : QT
-Skills: HTML / CSS/ JS / C/ C++/QT/PHP
+Skills: HTML / CSS/ JS / C/ C++/QT/PHP 
 
 - 🔭 I’m currently working on Esprit 
 
