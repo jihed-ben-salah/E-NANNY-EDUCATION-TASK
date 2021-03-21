@@ -6,7 +6,7 @@ I'm Jihed Ben Salah from Tunisia and I'm an IT engineering Student.I really enjo
 
 Skills: HTML / CSS/ JS / C/ C++/QT/PHP
 
-- 🔭 I’m currently working on this page. 
+
 
 
 
