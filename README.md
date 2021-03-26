@@ -1,5 +1,5 @@
 #Hi there 👋, Jihed Ben Salah
-## I am Softwar Engineering Student
+## Softwar Engineering Student
 ![I am Softwar Engineering Student](https://whileinfo.ma/wp-content/uploads/2020/06/agence-intelligence.jpg)
 
 I'm Jihed Ben Salah from Tunisia and I'm an IT engineering Student.I really enjoy learning new programming languages and frameworks like php,javascript,nodejs,C++,QT ...
