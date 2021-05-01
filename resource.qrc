@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/cp.png</file>
+        <file>img/education.png</file>
+        <file>img/food.png</file>
+        <file>img/home.png</file>
+        <file>img/login.png</file>
+        <file>img/loisir.png</file>
+        <file>img/per.png</file>
+        <file>img/produit.png</file>
+        <file>img/profil.png</file>
+        <file>img/recl.png</file>
+        <file>img/rv.png</file>
+        <file>img/se.png</file>
+        <file>img/securite_web_logo.png</file>
+        <file>img/image_article_controle_parental.png</file>
+        <file>img/numero.png</file>
+        <file>img/myappico.png</file>
+        <file>myappico.ico</file>
+        <file>img/logo.ico</file>
+        <file>img/background3.jpg</file>
+        <file>img/dev.jpg</file>
+        <file>img/devoir1.jpg</file>
+    </qresource>
+</RCC>

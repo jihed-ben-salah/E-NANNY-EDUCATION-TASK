@@ -1,0 +1,46 @@
+--------------------------------------------------------
+--  Fichier créé - jeudi-avril-01-2021   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table RECLAMATION
+--------------------------------------------------------
+
+  CREATE TABLE "SOUMAYA"."RECLAMATION" 
+   (	"IDENTIFIANT" NUMBER, 
+	"MAIL_DESTINATAIRE" VARCHAR2(50 BYTE), 
+	"SUJET" VARCHAR2(50 BYTE), 
+	"MESSAGE" VARCHAR2(1000 BYTE), 
+	"PERSONNE_AIDE" NUMBER
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into SOUMAYA.RECLAMATION
+SET DEFINE OFF;
+Insert into SOUMAYA.RECLAMATION (IDENTIFIANT,MAIL_DESTINATAIRE,SUJET,MESSAGE,PERSONNE_AIDE) values (654,'mohamedlazez276@gmail.com','pappapapa','mamamamamamamam',2);
+Insert into SOUMAYA.RECLAMATION (IDENTIFIANT,MAIL_DESTINATAIRE,SUJET,MESSAGE,PERSONNE_AIDE) values (321,'mohamedlazez276@gmail.com','bbbcbbcbcbcbc','jchhskchhsouhsco',2);
+Insert into SOUMAYA.RECLAMATION (IDENTIFIANT,MAIL_DESTINATAIRE,SUJET,MESSAGE,PERSONNE_AIDE) values (456,'yussef.naoui@esprit.tn','yussef bhim','soumaya 4keiaaaaaaaaaaaaaaaaaaaaaaaaaaa',2);
+Insert into SOUMAYA.RECLAMATION (IDENTIFIANT,MAIL_DESTINATAIRE,SUJET,MESSAGE,PERSONNE_AIDE) values (75,'soumaya.bensassi@esprit.tn','pr','jjdhjkshfdkjfdhfjkhfjk',653);
+Insert into SOUMAYA.RECLAMATION (IDENTIFIANT,MAIL_DESTINATAIRE,SUJET,MESSAGE,PERSONNE_AIDE) values (114,'soumaya.bensassi@esprit.tn','pr','prpprprprpr',5);
+Insert into SOUMAYA.RECLAMATION (IDENTIFIANT,MAIL_DESTINATAIRE,SUJET,MESSAGE,PERSONNE_AIDE) values (123,'soumaya.bensassi@esprit.tn','aaaa','aaaaaaaaaaaaaaaaaaaaaaaaaaaa',5);
+Insert into SOUMAYA.RECLAMATION (IDENTIFIANT,MAIL_DESTINATAIRE,SUJET,MESSAGE,PERSONNE_AIDE) values (789,'soumaya.bensassi@esprit.tn','probleme','blablablablabla',2);
+--------------------------------------------------------
+--  DDL for Index RECLAMATION_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SOUMAYA"."RECLAMATION_PK" ON "SOUMAYA"."RECLAMATION" ("IDENTIFIANT") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table RECLAMATION
+--------------------------------------------------------
+
+  ALTER TABLE "SOUMAYA"."RECLAMATION" ADD CONSTRAINT "RECLAMATION_PK" PRIMARY KEY ("IDENTIFIANT")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
+ 
+  ALTER TABLE "SOUMAYA"."RECLAMATION" MODIFY ("IDENTIFIANT" NOT NULL ENABLE);
